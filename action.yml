@@ -4,7 +4,7 @@ description: |
 branding:
   icon: file-text
   color: gray-dark
-input:
+inputs:
   htmlPath:
     required: true
     default: index.html
@@ -15,5 +15,5 @@ runs:
   using: docker
   image: Dockerfile
   args:
-  - ${{ inputs.htmlPath }}
-  - ${{ inputs.pdfName }}
+    - ${{ inputs.htmlPath }}
+    - ${{ inputs.pdfName }}

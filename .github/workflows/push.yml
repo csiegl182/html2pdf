@@ -17,7 +17,7 @@ jobs:
     - name: Build, tag, push to GitHub packages
       env:
         GITHUB_USER: markwilson
-        REGISTRY_URL: docker.pkg.github.com/markwilson/html2pdf
+        REGISTRY_URL: docker.pkg.github.com/csiegl182/html2pdf
         IMAGE_NAME: html2pdf
         IMAGE_TAG: latest
       run: |
